@@ -11,13 +11,13 @@ https://modelcontextprotocol.io/docs/getting-started/intro
 
 MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems eg tools, data and context in a consistent and structured way.
 
-![MCP](imgs/mcp-simple.png){#fig-mcp width="15cm"}
+![MCP](imgs/mcp-simple.png)
 
 Using MCP, AI applications like Gemini, Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
 
 Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
 
-![MCP](imgs/mcp-client-server.png){#fig-mcp width="15cm"}
+![MCP](imgs/mcp-client-server.png)
 
 The client is the language model (Claude or Gemini) or agent system that wants to perform the task. The server is the environment that exposes resources the model can use eg database, file system or internal tools.
 
@@ -50,7 +50,7 @@ JSON response:
 
 APIs were built for deterministic programs, but AI models reason probabilistically. So how do you get your AI agents to talk to your tools and data without writing messy, custom integration code every time? Enter the Model Context Protocol (MCP) shown in @fig-mcp. In this video, Smitha Kolan explains what MCP is, how it standardizes the way AI models discover and interact with external resources, and why it's becoming the new standard over traditional APIs for AI-powered applications
 
-![MCP](imgs/mcp-process.png){#fig-mcp width="15cm"}
+![MCP](imgs/mcp-process.png)
 
 **MCP defines resources**:
 
@@ -67,7 +67,7 @@ APIs were built for deterministic programs, but AI models reason probabilistical
 
 The protocol enforces a consistent schema across all tools.
 
-![MCP](imgs//mcp-vs-api.png){#fig-mcp width="15cm"}
+![MCP](imgs//mcp-vs-api.png)
 
 If we already have APIs, why do we need MCP?
 
