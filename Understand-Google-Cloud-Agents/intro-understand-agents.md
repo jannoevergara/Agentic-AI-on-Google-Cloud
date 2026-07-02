@@ -345,8 +345,3 @@ Conversational Agents leverages the power of Gemini and other LLMs to move beyon
 ## Customer Experience (CX) Agent Studio
 
 Customer Experience (CX) Agent Studio helps teams to rapidly build, evaluate, and deploy highly personalized conversational agents.
-
-```{r}
-#| output: false
-"foundation models"
-```
